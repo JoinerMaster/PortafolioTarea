@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-background:#333;
+    --primary-color:#FFF;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-background);
+}
+
+.container{
+    background-color: var(--primary-color);
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.hero-1{
+    font-size: 20px;
+    color:aqua;
+}
+
+.hero-2{
+    font-size: 20px;
+    color:green;
+}
+
+.hero-3{
+    font-size: 20px;
+    color:red;
+}
+
+.navbar-brand{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
